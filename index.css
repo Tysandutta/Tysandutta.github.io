@@ -1,0 +1,84 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+html {
+    height: 100%;
+    background: linear-gradient(#fcada1, white);
+    
+  }
+  body {
+     width: 1200px;
+     height: 100%;
+     padding-left: 35px;
+    
+  }
+
+  header {
+      background-color:#fcada1;
+      font-size: 30px;
+      border: 10px solid #000000;
+      display: block;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+      
+  }
+  nav {
+      float: middle;
+      width: 100%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+      
+    
+  }
+  nav ul {
+      padding: 10px;
+      float: left;
+      border-bottom: 10px;
+      list-style-type: none;
+      padding-left: 125px;
+      padding-right: 100px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  nav li {
+      float: left;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  nav li a {
+      
+      height: 25px;
+      padding: 12px 18px 8px 18px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+
+  section {
+      margin: auto;
+      width: 100%;
+      display: inline-block;
+      text-align: center; 
+      font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+  aside {
+      width: 50%;
+      display: inline-block;
+      padding:50px;
+      min-height: 100%;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 790px;
+      clear: both;
+      display: block;
+  }
+  img {
+      width: 30%;
+      display: block; 
+      margin-left: auto; 
+      margin-right: auto;
+      padding: 10px;
+
+  }
+
